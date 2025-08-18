@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+<body>
+ 
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">My Activity</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+ 
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Hi, I'm Dinesh Chowdary</h1>
+      <p>A passionate  Site Reliability Engineering & Observability
+platforms and IT Infrastructure Services in Unix/Linux& Windows and
+Applications Production Support...</p>
+      <a href="#projects" class="btn">My Day-by-by Activity</a>
+    </div>
+  </section>
+  <!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+ 
+    <!-- Profile Picture -->
+    <div class="profile-pic">
+      <img src="Dinesh_Photo.jpg" alt="Profile Picture">
+    </div>
+ 
+    <!-- About Text -->
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Dinesh Chowdary, Experienced Observability Monitoring Engineer with over 3 years in administrative roles, specializing in providing 24/7 support for global customers
+in production environments.
+        <br><br>
+Proficient in APM monitoring tools such as DataDog, Grafana, Kibana, Dynatrace, Splunk, OMI, Tidal, and Sitescope. Skilled in managing SLOs, SLIs,
+and SLAs, and well-versed in ITIL frameworks including incident, change, major,
+and problem management. Proven ability in Datadog administration,
+dashboard creation, and monitoring services in production environments. I have good Experienced with Python and Java for implment custom metrics      </p>
+    </div>
+ 
+  </div>
+</section>
+ 
+ 
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <h2>My Day-by-Day Activity</h2>
+ 
+    <div class="project-card">
+      <h3>SRE & Production Support & Application Support</h3>
+      <p><ul>
+  <li>Provided 24/7 support to global customers for payments applications in production environments.</li>
+  <li>Managed and administered APM/observability tools including DataDog, Grafana, Kibana, Dynatrace, Splunk, OMI, Tidal, and SiteScope.</li>
+  <li>Implemented SLOs, SLIs, and SLAs to ensure performance metrics were met.</li>
+  <li>Applied ITIL frameworks for incident, change, major incident, and problem management.</li>
+  <li>Created and maintained dashboards and monitors in DataDog for performance tracking.</li>
+  <li>Onboarded application services into production environments and performed gap analysis.</li>
+  <li>Developed and refined alerts for key performance indicators such as success rate, error rate, and composite alerts.</li>
+  <li>Collaborated with developers on JIRA ticket creation and escalation for issue resolution.</li>
+  <li>Monitored alerts using PagerDuty to ensure timely response and resolution.</li>
+  <li>Hands-on experience performing observability tasks and creating dashboards, widgets, and panels in DataDog.</li>
+  <li>Experience onboarding application services into the DataDog monitoring tool.</li>
+  <li>Analyzed data in the DataDog monitoring tool, exported data to Google Sheets, and shared insights with business teams.</li>
+  <li>Experienced in finding and setting threshold values for new alerts.</li>
+  <li>Experienced in monitoring with DataDog, Grafana, and Kibana monitoring tools.</li>
+  <li>Experienced in monitoring applications, services, and scheduled jobs.</li>
+  <li>Hands-on experience creating JIRA tickets and escalating to developers.</li>
+  <li>Analyzed and prepared incident checklists and shared them with clients.</li>
+  <li>Configured new alerts and reduced noisy alerts.</li>
+  <li>Worked on SLAs and SLIs for different payment services using DataDog monitoring.</li>
+  <li>Created JIRA dashboards based on project requirements.</li>
+  <li>Configured PagerDuty monitoring and set up alert policies.</li>
+</ul>
+</p>
+      
+  </div>
+</section>
+ 
+ 
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate, ask a question, or just say hello — feel free to drop a message!</p>
+ 
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+  <!-- Contact Info -->
+  <div class="contact-info">
+  <p><strong>Email:</strong> dineshchalla28@gmail.com</p>
+  <p><strong>WhatsApp:</strong> +91 7989270251</p>
+  <p><strong>LinkedIn:</strong> 
+    <a href="https://www.linkedin.com/in/dinesh-challa-9a484223a" target="_blank">
+      linkedin.com/in/dinesh-challa
+    </a>
+  </p>
+  </div>
+ 
+</section>
+ 
+ 
+ 
+ 
+  <script src="script.js"></script>
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top">↑</button>
+ 
+</body>
+</html>
